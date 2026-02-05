@@ -43,29 +43,28 @@ struct LockScreenView: View {
     let startDate: Date
 
     var body: some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 4) {
-                Text("Stopwatch")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+        VStack(alignment: .leading, spacing: 4) {
+            Text("Stopwatch")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+            HStack {
                 Text(timerInterval: startDate...Date.distantFuture, countsDown: false)
                     .font(.system(size: 60, weight: .thin, design: .rounded))
                     .monospacedDigit()
+                Spacer()
+                Button(intent: RestartStopwatchIntent()) {
+                    Image(systemName: "arrow.counterclockwise")
+                        .font(.title2.weight(.semibold))
+                        .foregroundStyle(.white)
+                        .frame(width: 60, height: 60)
+                        .background(.orange)
+                        .clipShape(Circle())
+                }
+                .buttonStyle(.plain)
             }
-
-            Spacer()
-
-            Button(intent: RestartStopwatchIntent()) {
-                Image(systemName: "arrow.counterclockwise")
-                    .font(.title2.weight(.semibold))
-                    .foregroundStyle(.white)
-                    .frame(width: 50, height: 50)
-                    .background(.orange)
-                    .clipShape(Circle())
-            }
-            .buttonStyle(.plain)
         }
-        .padding()
+        .padding(.vertical)
+        .padding(.horizontal, 24)
         .activityBackgroundTint(.black.opacity(0.8))
     }
 }
