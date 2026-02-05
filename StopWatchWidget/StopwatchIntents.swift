@@ -4,6 +4,7 @@ import Foundation
 struct RestartStopwatchIntent: LiveActivityIntent {
     static var title: LocalizedStringResource = "Restart Stopwatch"
     static var description = IntentDescription("Restarts the stopwatch from zero")
+    static var authenticationPolicy: IntentAuthenticationPolicy = .alwaysAllowed
 
     private static let stateKey = "stopwatch_state"
     private static let appGroup = "group.com.mattepozz.StopWatch"
