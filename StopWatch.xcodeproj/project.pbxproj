@@ -40,6 +40,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		522C17792F39E54A00B54E3B /* Exceptions for "StopWatch" folder in "StopWatchWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LiveActivityManager.swift,
+				StopwatchAttributes.swift,
+				StopwatchIntents.swift,
+				StopwatchState.swift,
+				StopwatchStore.swift,
+			);
+			target = 52D2EF7A2F320A000089355F /* StopWatchWidgetExtension */;
+		};
 		52D2EF8A2F320B000089355F /* Exceptions for "StopWatchWidget" folder in "StopWatchWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -52,6 +63,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		52D2EF6A2F3209E10089355F /* StopWatch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				522C17792F39E54A00B54E3B /* Exceptions for "StopWatch" folder in "StopWatchWidgetExtension" target */,
+			);
 			path = StopWatch;
 			sourceTree = "<group>";
 		};
@@ -425,7 +439,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = StopWatchWidget/StopWatchWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = WG2W7LPP9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatchWidget/Info.plist;
@@ -454,7 +468,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = StopWatchWidget/StopWatchWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = WG2W7LPP9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatchWidget/Info.plist;
