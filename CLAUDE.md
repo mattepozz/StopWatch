@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Open `StopWatch.xcodeproj` in Xcode 15+ and build for iOS 17.0+. No external dependencies.
 
 **Targets:**
-- `StopWatch` - Main app (Gym Rest Stopwatch.app)
+- `StopWatch` - Main app (One-Tap Stopwatch.app)
 - `StopWatchWidgetExtension` - Lock Screen Live Activity and Dynamic Island widget
 
 ## Architecture

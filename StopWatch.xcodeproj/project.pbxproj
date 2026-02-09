@@ -35,7 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52D2EF682F3209E10089355F /* Gym Rest Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Rest Stopwatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D2EF682F3209E10089355F /* One-Tap Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One-Tap Stopwatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D2EF7B2F320A000089355F /* StopWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StopWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		52D2EF692F3209E10089355F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52D2EF682F3209E10089355F /* Gym Rest Stopwatch.app */,
+				52D2EF682F3209E10089355F /* One-Tap Stopwatch.app */,
 				52D2EF7B2F320A000089355F /* StopWatchWidgetExtension.appex */,
 			);
 			name = Products;
@@ -139,7 +139,7 @@
 			packageProductDependencies = (
 			);
 			productName = StopWatch;
-			productReference = 52D2EF682F3209E10089355F /* Gym Rest Stopwatch.app */;
+			productReference = 52D2EF682F3209E10089355F /* One-Tap Stopwatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		52D2EF7A2F320A000089355F /* StopWatchWidgetExtension */ = {
@@ -375,7 +375,7 @@
 				DEVELOPMENT_TEAM = WG2W7LPP9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Rest Stopwatch";
+				INFOPLIST_KEY_CFBundleDisplayName = "One-Tap Stopwatch";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
@@ -390,7 +390,7 @@
 				);
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattepozz.StopWatch;
-				PRODUCT_NAME = "Gym Rest Stopwatch";
+				PRODUCT_NAME = "One-Tap Stopwatch";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -409,7 +409,7 @@
 				DEVELOPMENT_TEAM = WG2W7LPP9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Rest Stopwatch";
+				INFOPLIST_KEY_CFBundleDisplayName = "One-Tap Stopwatch";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
@@ -424,7 +424,7 @@
 				);
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattepozz.StopWatch;
-				PRODUCT_NAME = "Gym Rest Stopwatch";
+				PRODUCT_NAME = "One-Tap Stopwatch";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,7 +443,7 @@
 				DEVELOPMENT_TEAM = WG2W7LPP9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatchWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RestStopWatchWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = "One-Tap Stopwatch Widget";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +472,7 @@
 				DEVELOPMENT_TEAM = WG2W7LPP9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatchWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RestStopWatchWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = "One-Tap Stopwatch Widget";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
