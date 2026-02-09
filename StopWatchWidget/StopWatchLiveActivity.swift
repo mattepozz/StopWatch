@@ -9,20 +9,22 @@ struct StopWatchLiveActivity: Widget {
         } dynamicIsland: { context in
             DynamicIsland {
                 DynamicIslandExpandedRegion(.center) {
-                    HStack {
+                    HStack(alignment: .center) {
                         Text(timerInterval: context.state.startDate...Date.distantFuture, countsDown: false)
-                            .font(.system(size: 48, weight: .thin, design: .rounded))
+                            .font(.system(size: 50, weight: .thin, design: .rounded))
                             .monospacedDigit()
+                        Spacer()
+                        Button(intent: RestartStopwatchIntent()) {
+                            Image(systemName: "arrow.counterclockwise")
+                                .font(.title3.weight(.semibold))
+                                .foregroundStyle(.white)
+                                .frame(width: 50, height: 50)
+                                .background(.orange)
+                                .clipShape(Circle())
+                        }
+                        .buttonStyle(.plain)
                     }
-                }
-                DynamicIslandExpandedRegion(.bottom) {
-                    Button(intent: RestartStopwatchIntent()) {
-                        Label("Restart", systemImage: "arrow.counterclockwise")
-                            .font(.headline)
-                            .frame(maxWidth: .infinity)
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(.orange)
+                    .padding(.horizontal, 10)
                 }
             } compactLeading: {
                 Image(systemName: "stopwatch.fill")
