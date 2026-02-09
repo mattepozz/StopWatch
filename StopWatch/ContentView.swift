@@ -44,6 +44,12 @@ struct ContentView: View {
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
             store.syncFromDefaults()
         }
+        .onChange(of: store.isRunning) { _, isRunning in
+            UIApplication.shared.isIdleTimerDisabled = isRunning
+        }
+        .onAppear {
+            UIApplication.shared.isIdleTimerDisabled = store.isRunning
+        }
     }
 
     private func toggleStartStop() {
